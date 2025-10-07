@@ -94,9 +94,9 @@ if __name__ == "__main__":
         input_file = sys.argv[1]
         output_file = sys.argv[2]
     else:
-        # Utilisation par défaut
-        input_file = "/home/tarek-ubuntu/Tarek/Doctorat/Lin-Kernighan/LKH-2.0.10/instances/kro124/kro124.atsp"
-        output_file = "/home/tarek-ubuntu/Tarek/Doctorat/Lin-Kernighan/LKH-2.0.10/instances/kro124/kro124.tsp"
+        # default
+        input_file = ""
+        output_file = ""
     
     try:
         atsp_to_tsp(input_file, output_file)
